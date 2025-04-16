@@ -1,6 +1,7 @@
+//需要C++17及以上支持
 #include <iostream>
 #include <string>
-#include <filesystem>  // 引入文件系统库，用于处理文件路径及文件夹遍历等操作（C++17及以上支持）
+#include <filesystem>  // 引入文件系统库，用于处理文件路径及文件夹遍历等操作
 // 引入包含覆盖函数的头文件（假设在同一个项目目录下，实际可能需要根据情况调整包含路径），以便调用overwriteFirst24Bytes函数
 #include "hexOverwriter.cpp"
 #include <conio.h>    // 引入控制台输入头文件，用于实现等待用户按键的功能
